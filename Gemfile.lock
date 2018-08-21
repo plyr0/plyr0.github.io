@@ -65,7 +65,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.0)
+  jekyll (~> 3.8)
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
