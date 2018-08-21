@@ -1,75 +1,109 @@
-Jekyll Clean Dark
-============
+# The Hacker-Blog theme
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-clean-dark.svg)](https://badge.fury.io/rb/jekyll-clean-dark)
+*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the original version in action [on his blog](https://scotte.github.io).
+Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
-* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
+### Included
 
-![preview1](./assets/images/preview1.jpg)
-![preview2](./assets/images/preview2.jpg)
-![preview3](./assets/images/preview3.jpg)
+1. Pagination
+2. SEO tags
+3. Archive Page
+4. RSS
+5. Sitemap 
 
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
+## Usage
 
-Some cool features:
+1. Fork and Clone this repository
+2. Customize your blog
+3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
+4. Commit and push to master 
 
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrica](http://metrica.yandex.com);
- - Blog tags - check the section below;
- - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
- - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
- - Bootstrap 4 and FontAwesome 5!
+## Local Build
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+If you want to see the changes before pushing the blog to Github, do a local build.
 
-Installation
-============
+1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
+2. `gem install jekyll-seo-tag`
+3. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
+4. Go to `http://0.0.0.0:8000/` in your web browser.
 
-If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
+*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
 
-After you will have to set up your `_config.yml`
+### Local build using docker
 
-Gem Installation
-================
+```bash
+docker run --rm -p 8000:8000 \
+  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
+  -it tocttou/jekyll:3.5 \
+  jekyll serve --watch --port 8000
+```
 
-Follow the instructions on the Jekyll [site](https://jekyllrb.com/docs/themes/). Then copy the following files from this repository:
+Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
 
- -_config.yml
- - about.md
- - admin.md
- - archive.html
- - feed.xml 
- 
-Blog tags
-=========
+*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
 
-To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
+## Customizing
 
-License
-=======
+### Configuration variables
 
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+Edit the `_config.yml` file and set the following variables:
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+```yml
+title: [The title of your blog]
+description: [A short description of your blog's purpose]
+author:
+  name: [Your name]
+  email: [Your email address]
+  url: [URL of your website]
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
+baseurl: [The base url for this blog.]
 
-This theme includes the following files which are the properties of their
-respective owners:
+paginate: [Number of posts in one paginated section (default: 3)]
+owner: [Your name]
+year: [Current Year]
+```
 
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
+
+Additionally, you may choose to set the following optional variables:
+
+```yml
+google_analytics: [Your Google Analytics tracking ID]
+```
+
+### About Page
+
+Edit `about.md`
+
+### Layout
+
+If you would like to modify the site style:
+
+**HTML**
+
+Footer: Edit `_includes/footer.html`
+
+Header: Edit `_includes/header.html`
+
+Links in the header: Edit `_includes/links.html`
+
+Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
+
+Index page layout: Edit `_layouts/default.html`
+
+Post layout: Edit `_layouts/post.html`
+
+**CSS**
+
+Site wide CSS: Edit `_sass/base.scss`
+
+Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
+
+**404 page**
+
+Edit `404.md`
+
+## License
+
+CC0 1.0 Universal
