@@ -7,12 +7,12 @@ Mateusz Teklak
 
 [Mail](mailto:plyr00@gmail)
 
-[Github](https://github.com/plyr0)
+[GitHub](https://github.com/plyr0)
 
-[Facebook](https://www.facebook.com/plyr0)
+[LinkedIn](https://www.linkedin.com/in/plyr0/)
 
-[Stackoverflow](https://stackoverflow.com/users/759071/plyr0)
+[Scrum.org](https://www.scrum.org/user/365746)
 
-[Linkedin](https://www.linkedin.com/in/plyr0/)
+[StackOverflow](https://stackoverflow.com/users/759071/plyr0)
 
 [Bitbucket](https://bitbucket.org/plyr0/)
