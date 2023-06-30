@@ -1,32 +1,10 @@
+# Just my blog
+
 # Gesko
 
-Simple and minimal Jekyll blog. 
+Simple and minimal Jekyll blog by [DavideBri](https://github.com/DavideBri/Gesko).
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
 Original theme from [Sidey](https://github.com/ronv/sidey).
-
-### Features
-
-- [x] Responsive Design
-- [x] Dark/Ligh theme 🌗
-- [x] Inline CSS
-- [x] Anchor headings
-- [x] Tags & Tag pages 
-- [x] 404 page 
-- [x] Robots.txt 🤖
-- [x] Atom & Json feeds 📡
-- [x] Sass 
-- [x] About page, with Timeline! 🗣️
-- [x] PageSpeed and w3Validator tests PASSED ✔️
-- [x] Search bar 🔎
-- [x] Next & Previous Post ⏮️ ⏭️
-- [x] Automatic/Manual reading time estimation 🕐
-- [x] Disqus section (optional) ✍️ 
-
-
-## Screenshot
-
-![light-theme](https://github.com/DavideBri/Gesko/blob/master/light-theme.jpg)
-![dark-theme](https://github.com/DavideBri/Gesko/blob/master/dark-theme.jpg)
 
 ## Installation
 
@@ -55,13 +33,8 @@ tag: yourNewTag
 ```
 Then build again and you're ready!!
 
-## Contributing
-
-Yeaaa feel free to open a pull request.
-
-
-If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE.md).
+
+All posts' content is licensed under Creative Commons CC-BY-NC-SA-4.0
