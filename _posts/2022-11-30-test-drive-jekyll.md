@@ -34,8 +34,7 @@ Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee 
 
 > Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90's. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi. 
 
-![](https://images.unsplash.com/photo-1573481193569-c00872fb99fb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=k-mitch-hodge-yTVqCMI2yPY-unsplash.jpg&w=2400)
-*Photo by <a href="https://unsplash.com/@kmitchhodge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K. Mitch Hodge</a> on <a href="https://unsplash.com/collections/8725460/sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
+![](/assets/img/20150623_111108.jpg)
 
 VHS roof party waistcoat cold-pressed, `snippet.CodeExample();` master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.
 
@@ -100,8 +99,7 @@ Actually hella you probably haven't heard of them quinoa try-hard la croix. Stre
 ## Quotes with Image
 
 > Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.
-> ![](https://unsplash.com/photos/OQsxdghBKrU/download?force=true&w=640)
-> *Photo by <a href="https://unsplash.com/@alanrobertjones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alan Jones</a> on <a href="https://unsplash.com/s/photos/sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
+> ![](/assets/img/20150623_111108.jpg)
 
 ## Quotes with Code
 
